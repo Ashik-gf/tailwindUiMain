@@ -18,7 +18,7 @@ const HeaderSection = ({children, title, className}) => {
             </a>
           </div>
         </div>
-        <div className={`${className}  border-2 border-gray-200 rounded-lg`}>
+        <div className={`${className}  `}>
             {children}
         </div>
     </div>

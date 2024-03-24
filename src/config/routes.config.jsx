@@ -82,9 +82,10 @@ import ContentSections from '@pages/Resource/Marketing/PageSection/Content Secti
 import LogoClouds from '@pages/Resource/Marketing/PageSection/Logo Clouds'
 import FaQSection from '@pages/Resource/Marketing/PageSection/FaQSection'
 import FooterSection from '@pages/Resource/Marketing/PageSection/FooterSection'
-import HeadresElements from '@pages/Resource/Marketing/Elements/Headers'
 import FlyoutMenus from '@pages/Resource/Marketing/Elements/Flyout Menus'
-import Banners from '@pages/Resource/Marketing/Elements/Banners'
+import Banners from '@pages/Resource/Marketing/Elements/Banner'
+import HeadresElements from '@pages/Resource/Marketing/Elements/Headers'
+
 
 
 
