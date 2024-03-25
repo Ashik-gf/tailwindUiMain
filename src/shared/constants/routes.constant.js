@@ -76,6 +76,10 @@ export const Routes = {
   headresElements:'/resource/headresElements',
   flyoutMenus:'/resource/flyoutMenus',
   banners:'/resource/banners',
+  feedBack:'/resource/feedBack',
+  landingPage:'/resource/landingPage',
+  pricingPages:'/resource/pricingPages',
+  aboutPages:'/resource/aboutPages',
  
 
   dashboard: '/dashboard',

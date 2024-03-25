@@ -97,7 +97,7 @@ const data = [
 const feedback = [
   {
     title: "404 Page",
-    pathNmae: "/resource/pageheading",
+    pathNmae: "/resource/feedBack",
     // image: photos3,
     lenght: "13 Components",
   },
@@ -134,13 +134,13 @@ const pageExapmle = [
   },
   {
     title: "Pricing Page ",
-    pathNmae: "/resource/pricingPage",
+    pathNmae: "/resource/pricingPages",
     // image: photos10,
     lenght: "3 Example",
   },
   {
     title: "About",
-    pathNmae: "/resource/about",
+    pathNmae: "/resource/aboutPages",
     // image: photos11,
     lenght: "3 Example",
   },

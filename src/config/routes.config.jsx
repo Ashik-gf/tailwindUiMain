@@ -85,6 +85,10 @@ import FooterSection from '@pages/Resource/Marketing/PageSection/FooterSection'
 import FlyoutMenus from '@pages/Resource/Marketing/Elements/Flyout Menus'
 import Banners from '@pages/Resource/Marketing/Elements/Banner'
 import HeadresElements from '@pages/Resource/Marketing/Elements/Headers'
+import FeedBack from '@pages/Resource/Marketing/FeedBack'
+import LandingPage from '@pages/Resource/Marketing/PageExample/Landing Pages'
+import PricingPages from '@pages/Resource/Marketing/PageExample/Pricing Pages'
+import AboutPages from '@pages/Resource/Marketing/PageExample/About Pages'
 
 
 
@@ -178,6 +182,10 @@ export const RoutesConfig = [
 {path: Routes.headresElements, element: <HeadresElements />},
 {path: Routes.flyoutMenus, element: <FlyoutMenus />},
 {path: Routes.banners, element: <Banners />},
+{path: Routes.feedBack, element: <FeedBack />},
+{path: Routes.landingPage, element: <LandingPage />},
+{path: Routes.pricingPages, element: <PricingPages />},
+{path: Routes.aboutPages, element: <AboutPages />},
 
 
 
