@@ -10,7 +10,7 @@ import LabelsonLeft from "./Labels on left";
 const FromsLayout = () => {
   return (
     <div>
-      <MainHeaderSection tag={'Froms'} title={"Form Layouts"} />
+      <MainHeaderSection goto={'appui'} section={'Application UI'} tag={'Froms'} title={"Form Layouts"} />
       {/* Stacked */}
       <HeaderSection title={"Stacked"}>
         <div className=" mx-32">

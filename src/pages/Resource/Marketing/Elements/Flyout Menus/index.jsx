@@ -13,7 +13,7 @@ import Simple from "./Simple";
 const FlyoutMenus = () => {
   return (
     <div>
-      <MainHeaderSection title={"Flyout Menus"} tag={"Elements"} />
+      <MainHeaderSection goto={'marketing'} section={'Marketing'} title={"Flyout Menus"} tag={"Elements"} />
       <FirstHeaderSection
         title={"Stacked with footer actions"}
         className={" border-red-400 border-2"}

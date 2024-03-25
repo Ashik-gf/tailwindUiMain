@@ -16,7 +16,7 @@ import Newsletter4Columns from "./4-column with newsletter";
 const FooterSection = () => {
   return (
     <div>
-      <MainHeaderSection title={"Footers"} tag={"Page Section"} />
+      <MainHeaderSection goto={'marketing'} section={'Marketing'} title={"Footers"} tag={"Page Section"} />
       <FirstHeaderSection title={"4-column with company mission on dark"}>
         <div className="">
           <Column4WithCompanyMissioOonDark />

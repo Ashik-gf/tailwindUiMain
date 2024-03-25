@@ -17,7 +17,7 @@ import WithDescription from './With description'
 const PageSectionStats = () => {
   return (
     <div>
-      <MainHeaderSection title={'Stats'} tag={'PAge Section'} />
+      <MainHeaderSection goto={'marketing'} section={'Marketing'} title={'Stats'} tag={'PAge Section'} />
       <FirstHeaderSection title={'Simple'}>
     <div>
       <Simple />

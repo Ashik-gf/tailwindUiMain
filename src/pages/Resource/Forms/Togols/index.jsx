@@ -11,7 +11,7 @@ import WithRightLabel from './With right label'
 const Togols = () => {
   return (
     <div>
-      <MainHeaderSection tag={'Froms'} title={'Toggles'} />
+      <MainHeaderSection goto={'appui'} section={'Application UI'} tag={'Froms'} title={'Toggles'} />
       <FirstHeaderSection title={'Simple toggle'}>
 <div className="mx-72 my-4">
 <SimpleToggle />

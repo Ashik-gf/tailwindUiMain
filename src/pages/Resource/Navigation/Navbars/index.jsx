@@ -16,7 +16,7 @@ import WithSearchInColumnLayout from './With search in column layout'
 const Navbars = () => {
   return (
     <div>
-        <MainHeaderSection title={'Navigation'} />
+        <MainHeaderSection goto={'appui'} section={'Application UI'} title={'Navigation'} />
         <FirstHeaderSection title={'Simple dark with menu button on left'}>
             <div className="max-24">
             <SimpleDarkWithMenuButtonOnLeft />

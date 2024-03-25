@@ -17,7 +17,7 @@ import WithImageTiles from "./With image tiles";
 const CTASection = () => {
   return (
     <div>
-      <MainHeaderSection title={"CTA Sections"} tag={"Page Section"} />
+      <MainHeaderSection goto={'marketing'} section={'Marketing'} title={"CTA Sections"} tag={"Page Section"} />
       <FirstHeaderSection title={"Dark panel with app screenshot"}>
         <div className="div">
           < DarkPanelWithAppScreenshot/>

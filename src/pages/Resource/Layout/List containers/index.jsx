@@ -13,7 +13,7 @@ import SimpleWithDividersFullWidthOnMobile from './Simple with dividers, full-wi
 const ListContainer = () => {
   return (
     <div>
-      <MainHeaderSection tag={'Layout'} title={'List containers'} />
+      <MainHeaderSection goto={'appui'} section={'Application UI'} tag={'Layout'} title={'List containers'} />
       <FirstHeaderSection title={'Simple with dividers'}>
       <div className=" border-2 border-gray-200 rounded-lg p-12">
         <SimpleWithDividers />

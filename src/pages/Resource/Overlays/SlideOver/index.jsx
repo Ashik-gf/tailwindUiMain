@@ -6,7 +6,7 @@ import WithCloseButtonOnOutside from './With close button on outside'
 const SlideOver = () => {
   return (
     <div>
-      <MainHeaderSection title={'Slide Over'} tag={'Overlays'} />
+      <MainHeaderSection goto={'appui'} section={'Application UI'} title={'Slide Over'} tag={'Overlays'} />
       <HeaderSection title={'With close button on outside'}>
 <div>
   <WithCloseButtonOnOutside />

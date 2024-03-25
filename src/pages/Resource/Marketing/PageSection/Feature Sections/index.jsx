@@ -23,7 +23,7 @@ import SimpleTwo_olumnWithSmallIconsOnDark from "./Simple two-column with small 
 const FutureSection = () => {
   return (
     <div>
-      <MainHeaderSection title={"Feature Sections"} tag={"Page Section"} />
+      <MainHeaderSection goto={'marketing'} section={'Marketing'} title={"Feature Sections"} tag={"Page Section"} />
       <FirstHeaderSection title={"With product screenshot"}>
         <div className="div">
           <WithProductScreenshot />

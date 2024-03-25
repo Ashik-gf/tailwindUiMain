@@ -7,7 +7,7 @@ import Stacked from "./Stacked";
 const HomeScreen = () => {
   return (
     <div>
-      <MainHeaderSection title={"Home Screen"} tag={"Page Example"} />
+      <MainHeaderSection goto={'appui'} section={'Application UI'} title={"Home Screen"} tag={"Page Example"} />
       <HeaderSection title={"Side ar On Dark"}>
         <div className="p-2">
           <SidebarOnDark />

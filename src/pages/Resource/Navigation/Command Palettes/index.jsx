@@ -7,7 +7,7 @@ import SimpleWithPadding from "./Simple with padding";
 const CommandPalettes = () => {
   return (
     <div>
-      <MainHeaderSection title={"Command Palettes"} tag={"Navigation"} />
+      <MainHeaderSection goto={'appui'} section={'Application UI'} title={"Command Palettes"} tag={"Navigation"} />
       <HeaderSection title={"Simple"}>
         <div className="mx-64 my-2 ">
           <Simple />

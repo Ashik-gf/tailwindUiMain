@@ -15,7 +15,7 @@ import SimpleOnDark from './Simple on dark'
 const Tabs = () => {
   return (
     <div>
-        <MainHeaderSection tag={'Tab'} />
+        <MainHeaderSection goto={'appui'} section={'Application UI'} tag={'Tab'} />
         <FirstHeaderSection title={'Tabs with underline'}>
     <div className="mx-12">
         <TabsWithUnderline />

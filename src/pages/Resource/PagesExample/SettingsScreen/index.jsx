@@ -7,7 +7,7 @@ import Stacked from "./Stacked";
 const SettingsScreens = () => {
   return (
     <div>
-      <MainHeaderSection title={"Setting Screen"} tag={"Page Example"} />
+      <MainHeaderSection goto={'appui'} section={'Application UI'} title={"Setting Screen"} tag={"Page Example"} />
       {/*  */}
       <HeaderSection title={"Sidebar On Dark"}>
         <div className="p-2">

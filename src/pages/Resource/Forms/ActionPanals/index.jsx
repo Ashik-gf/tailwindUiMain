@@ -14,7 +14,7 @@ import WithWell from './With well'
 const ActionPanals = () => {
   return (
     <div>
-      <MainHeaderSection tag={'Forms'} title={'Action Panels'} />
+      <MainHeaderSection goto={'appui'} section={'Application UI'} tag={'Forms'} title={'Action Panels'} />
       <HeaderSection title={'Action Panels'}>
         <div className=' mx-64'>
         <Simple />

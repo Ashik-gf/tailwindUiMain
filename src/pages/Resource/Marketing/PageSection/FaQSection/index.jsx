@@ -16,7 +16,7 @@ import TwoColumnsWithCenteredIntroduction from './Two columns with centered intr
 const FaQSection = () => {
   return (
     <div>
-      <MainHeaderSection title={'FAQs'} tag={'Page Section'} />
+      <MainHeaderSection goto={'marketing'} section={'Marketing'} title={'FAQs'} tag={'Page Section'} />
       <FirstHeaderSection title={'Offset with supporting text'}>
       <div className="border-2 border-gray-200 rounded-xl">
 <OffsetWithSupportingText />

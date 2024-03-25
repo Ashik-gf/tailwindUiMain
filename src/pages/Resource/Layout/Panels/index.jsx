@@ -16,7 +16,7 @@ import WellEdgeToEdgeOnMobile from "./Well, edge-to-edge on mobile";
 const Panels = () => {
   return (
     <div>
-      <MainHeaderSection title={"Panels"} tag={"Layoyt"} />
+      <MainHeaderSection goto={'appui'} section={'Application UI'} title={"Panels"} tag={"Layoyt"} />
       <FirstHeaderSection className={""} title={"Basic card"}>
         <div className="mx-2">
           <BasicCard />

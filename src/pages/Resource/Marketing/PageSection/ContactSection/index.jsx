@@ -14,7 +14,7 @@ import SplitWithImage from './Split with image'
 const ContactSection = () => {
   return (
     <div>
-      <MainHeaderSection title={'Contact Sections'} tag={'Page Section'} />
+      <MainHeaderSection goto={'marketing'} section={'Marketing'} title={'Contact Sections'} tag={'Page Section'} />
       <FirstHeaderSection title={'Centered'}>
         <div className="div border-[2px] border-gray-200 rounded-lg">
           <Centered />

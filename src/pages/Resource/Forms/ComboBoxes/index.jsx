@@ -10,7 +10,7 @@ import WithSecondaryText from './With secondary text'
 const ComboBoxes = () => {
   return (
     <div>
-      <MainHeaderSection tag={'Forms'}  title={'ComboBoxes'}/>
+      <MainHeaderSection goto={'appui'} section={'Application UI'} tag={'Forms'}  title={'ComboBoxes'}/>
       <HeaderSection  title={'Simple'}>
         <div className="mx-64 my-8 h-[400px]">
           <Simple />

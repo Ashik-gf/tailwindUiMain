@@ -16,7 +16,7 @@ import WithSecondaryNavigation2 from "./With secondary navigation2";
 const SidebarNavigation = () => {
   return (
     <div>
-      <MainHeaderSection tag={"Navigaton"} />
+      <MainHeaderSection goto={'appui'} section={'Application UI'} tag={"Navigaton"} />
       {/* Dark */}
       <HeaderSection title={"Brand"}>
         <div className="flex justify-center items-center">

@@ -9,7 +9,7 @@ import CardFooterWithPageButtons from './Card footer with page buttons'
 const Pagination = () => {
   return (
     <div>
-        <MainHeaderSection tag={'Pagination'} />
+        <MainHeaderSection goto={'appui'} section={'Application UI'} tag={'Pagination'} />
         <FirstHeaderSection title={'Card footer with page buttons'}>
 <div className="mx-8">
   <SimpleCardFooter />

@@ -17,7 +17,7 @@ import WithOffsetImage from "./With offset image";
 const HeroSection = () => {
   return (
     <div>
-      <MainHeaderSection title={"Hero Sections"} tag={"Page Section"} />
+      <MainHeaderSection goto={'marketing'} section={'Marketing'} title={"Hero Sections"} tag={"Page Section"} />
       <HeaderSection title={"Simple centered"}>
         <div className=" mx-2 my-4">
           <SimpleCentered />

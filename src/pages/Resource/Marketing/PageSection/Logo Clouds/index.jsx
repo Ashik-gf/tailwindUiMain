@@ -18,7 +18,7 @@ import GridOnDark from './Grid on dark'
 const LogoClouds = () => {
   return (
     <div>
-      <MainHeaderSection title={'Logo Clouds'} tag={'Page Section'}/>
+      <MainHeaderSection goto={'marketing'} section={'Marketing'} title={'Logo Clouds'} tag={'Page Section'}/>
       <FirstHeaderSection title={'Simple With Heading'}>
         <div className="border-2 border-gray-100 rounded-lg">
       <SimpleWithHeading />

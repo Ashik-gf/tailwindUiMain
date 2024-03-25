@@ -13,7 +13,7 @@ import Nested from "./Nested";
 const MediaObject = () => {
   return (
     <div>
-      <MainHeaderSection title={"Media Objects"} tag={"Layout"} />
+      <MainHeaderSection goto={'appui'} section={'Application UI'} title={"Media Objects"} tag={"Layout"} />
       <HeaderSection title={"Basic"}>
         <div className=" md:mx-[250px] my-12 ">
           <Basic />

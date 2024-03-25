@@ -11,7 +11,7 @@ import WithPreviewButton from "./With preview button";
 const TextAreas = () => {
   return (
     <div>
-      <MainHeaderSection tag={'Froms'} title={"Textareas"} />
+      <MainHeaderSection goto={'appui'} section={'Application UI'} tag={'Froms'} title={"Textareas"} />
       <FirstHeaderSection title={"Simple"}>
         <div className=" mx-72 ">
           <Simple />

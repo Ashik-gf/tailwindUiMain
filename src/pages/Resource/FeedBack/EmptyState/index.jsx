@@ -11,7 +11,7 @@ import WithRecommendationsGrid from './With recommendations grid'
 const EmptyState = () => {
   return (
     <div>
-      <MainHeaderSection tag={'FeedBack'} />
+      <MainHeaderSection goto={'appui'} section={'Application UI'} tag={'FeedBack'} />
       <HeaderSection title={'Simple'}>
       <div className="mx-64 my-8">
         <Simple />

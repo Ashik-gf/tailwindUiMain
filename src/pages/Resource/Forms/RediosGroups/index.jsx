@@ -18,7 +18,7 @@ import ListWithDescriptionsInpanel from './List with descriptions in panel'
 const RadioGroups = () => {
   return (
     <div>
-      <MainHeaderSection tag={'Froms'} title={'Radio Groups'} />
+      <MainHeaderSection goto={'appui'} section={'Application UI'} tag={'Froms'} title={'Radio Groups'} />
       <FirstHeaderSection className={' w-full border-2 border-gray-200 rounded-lg'} title={'Simple list'}>
 <div className=" mx-[200px] my-[50px]">
   <SimpleList />

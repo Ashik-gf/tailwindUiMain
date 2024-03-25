@@ -15,7 +15,7 @@ import WithMediumDark from "./With medium images on dark";
 const TeamSections = () => {
   return (
     <div>
-      <MainHeaderSection title={"Team Sections"} tag={"Page Section"} />
+      <MainHeaderSection goto={'marketing'} section={'Marketing'} title={"Team Sections"} tag={"Page Section"} />
       <FirstHeaderSection title={"With small images"}>
         <div className="border-[2px] border-gray-200 rounded-md">
           <WithSmallImages />

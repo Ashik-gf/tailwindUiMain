@@ -15,7 +15,7 @@ import Off_whiteGrid from './Off-white grid'
 const Testimonials = () => {
   return (
     <div>
-      <MainHeaderSection title={'Testimonials'} tag={'Page Section'} />
+      <MainHeaderSection goto={'marketing'} section={'Marketing'} title={'Testimonials'} tag={'Page Section'} />
       <FirstHeaderSection title={'Simple centered'}>
       <SimpleCentered />
       </FirstHeaderSection>

@@ -9,7 +9,7 @@ import SimpleWithSlashes from './Simple with slashes'
 const Breadcrumbs = () => {
   return (
     <div>
-      <MainHeaderSection tag={'Navigations'} />
+      <MainHeaderSection goto={'appui'} section={'Application UI'} tag={'Navigations'} />
       <HeaderSection className={''} title={'Contained'}>
         <div className=' mx-64 my-24 '>
     <Contained />

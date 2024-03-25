@@ -18,7 +18,7 @@ import TwoTiersWithEmphasizedTier from "./Two tiers with emphasized tier";
 const PricingSection = () => {
   return (
     <div>
-      <MainHeaderSection title={"Pricing Sections"} tag={"Page Section"} />
+      <MainHeaderSection goto={'marketing'} section={'Marketing'} title={"Pricing Sections"} tag={"Page Section"} />
       <FirstHeaderSection title={"Single price with details"}>
         <SinglePriceWithDetails />
       </FirstHeaderSection>

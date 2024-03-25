@@ -13,7 +13,7 @@ import WithToolbar from './With toolbar'
 const Deviders = () => {
   return (
     <div>
-      <MainHeaderSection title={'Dividers'} tag={"Layout"}/>
+      <MainHeaderSection goto={'appui'} section={'Application UI'} title={'Dividers'} tag={"Layout"}/>
       <HeaderSection title={'With label'}>
 <div className="mx-12 py-12">
   <WithLabel />

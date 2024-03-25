@@ -11,7 +11,7 @@ import WithDismissButton from './With dismiss button'
 const Alert = () => {
   return (
     <div>
-      <MainHeaderSection tag={'FeedBack'} />
+      <MainHeaderSection goto={'appui'} section={'Application UI'} tag={'FeedBack'} />
       <HeaderSection>
         <div className=' mx-64'>
         <WithDescription />

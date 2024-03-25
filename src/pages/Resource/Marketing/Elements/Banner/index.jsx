@@ -19,7 +19,7 @@ import Privacy_notice_full_width from "./Privacy notice full width";
 const Banners = () => {
   return (
     <div>
-      <MainHeaderSection title={"Banners"} tag={"Elelments"} />
+      <MainHeaderSection goto={'marketing'} section={'Marketing'} title={"Banners"} tag={"Elelments"} />
       <FirstHeaderSection title={"With Button"}>
         <div className=" mx-1 h-[300px] border-t-0 border-[1px] border-gray-200 rounded-xl">
           <With_button />

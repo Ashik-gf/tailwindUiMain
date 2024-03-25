@@ -27,7 +27,7 @@ import InputWithCornerHint from './Input with corner hint'
 const InputGroups = () => {
   return (
     <div>
-      <MainHeaderSection tag={'Froms'} title={'Input Groups'}></MainHeaderSection>
+      <MainHeaderSection goto={'appui'} section={'Application UI'} tag={'Froms'} title={'Input Groups'}></MainHeaderSection>
       <FirstHeaderSection title={'Input with inline leading add-on and trailing dropdown'} className={'border-2 border-gray-200 py-10 rounded-lg'} >
         <div className=' mx-52'>
            <InputWithInlineLeadingAddonAndTrailingDropdown />

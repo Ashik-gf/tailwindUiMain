@@ -13,7 +13,7 @@ import Sid_by_sideOnCard from './Side-by-side on card'
 const NewsletterSections = () => {
   return (
     <div>
-      <MainHeaderSection title={'Newsletter Sections'} tag={'Page Section'} />
+      <MainHeaderSection goto={'marketing'} section={'Marketing'} title={'Newsletter Sections'} tag={'Page Section'} />
       <FirstHeaderSection title={'Side-by-side with details'}>
       <div className="mx-1">
         <SideBySideWithDetails />

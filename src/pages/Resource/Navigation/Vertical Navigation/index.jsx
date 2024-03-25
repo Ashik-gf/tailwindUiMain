@@ -12,7 +12,7 @@ import OnGray from './On gray'
 const VarticalNavigation = () => {
   return (
     <div>
-      <MainHeaderSection />
+      <MainHeaderSection goto={'appui'} section={'Application UI'} tag={"Navigation"} title={"Vartical Navgation"} />
       <FirstHeaderSection title={'Simple'}>
 <div className="mx-[200px]">
 <Simple />

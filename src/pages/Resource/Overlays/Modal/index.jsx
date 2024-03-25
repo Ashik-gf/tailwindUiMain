@@ -12,7 +12,7 @@ const Modal = () => {
   };
   return (
     <div>
-      <MainHeaderSection tag={"OverLay"} title={"Modal"} />
+      <MainHeaderSection goto={'appui'} section={'Application UI'} tag={"OverLay"} title={"Modal"} />
       <HeaderSection className={"rounded-lg"} title={"Simple with gray footer"}>
         <div className=" h-[500px]">
           <SimpleWithGrayFooter />

@@ -12,21 +12,8 @@ import MainHeaderSection from '@shared/components/MainHeader'
 const Stats = () => {
   return (
     <div>
-      {/* <div className=" text-slate-500 hover:text-slate-600 mt-10">
-        <Link to={"/resource/appui"}>
-          <p className=" flex items-center gap-3 ">
-            <IoArrowBackCircle className=" text-3xl" />
-            <span>Back</span>{" "}
-          </p>
-        </Link>
-        <p>
-          <Link>Application Ui</Link> / <Link>Application shells</Link>
-        </p>
-        <h1 className="mt-3 text-3xl font-extrabold tracking-tight text-slate-900">
-        Stats
-        </h1>
-      </div> */}
-      <MainHeaderSection title={'Stats'}>
+     
+      <MainHeaderSection goto={'appui'} section={'Application UI'}  title={'Stats'} tag={'Data Display'} >
 
       </MainHeaderSection>
       {/* With Trending */}

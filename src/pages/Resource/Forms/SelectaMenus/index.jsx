@@ -12,7 +12,7 @@ import BrandedWithSupportedText from './Branded with supported text'
 const SelectsMenus = () => {
   return (
     <div>
-      <MainHeaderSection tag={'Forms'} className={'border-2'} title={'Select Menus'}></MainHeaderSection>
+      <MainHeaderSection goto={'appui'} section={'Application UI'} tag={'Forms'} className={'border-2'} title={'Select Menus'}></MainHeaderSection>
       <FirstHeaderSection className={'border-2 border-gray-200 bg-[#F3F4F6] rounded-lg h-[350px]'} title={'Custom with avatar'}>
       <div className='mx-[200px] my-12  content-center'>
 <CustomWithAvatar />

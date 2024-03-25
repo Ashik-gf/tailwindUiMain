@@ -13,7 +13,7 @@ import ProgressBar from './Progress bar'
 const Steps = () => {
   return (
     <div>
-        <MainHeaderSection title={'Steps'}  tag={"Nevigation"}/>
+        <MainHeaderSection goto={'appui'} section={'Application UI'} title={'Steps'}  tag={"Nevigation"}/>
 
         <HeaderSection title={'Simple'}>
     <div className=" m-4">

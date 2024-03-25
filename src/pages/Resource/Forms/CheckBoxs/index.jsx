@@ -10,7 +10,7 @@ import SimpleListWithHeading from "./Simple list with heading";
 const CheckBoxs = () => {
   return (
     <div>
-      <MainHeaderSection tag={'Froms'} title={"Checkboxes"} />
+      <MainHeaderSection goto={'appui'} section={'Application UI'} tag={'Froms'} title={"Checkboxes"} />
       <FirstHeaderSection title={"List with description"}>
         <div className="mx-72 my-[50px]">
           <ListWithDescription />

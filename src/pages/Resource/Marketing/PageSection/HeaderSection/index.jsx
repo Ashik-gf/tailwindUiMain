@@ -15,7 +15,7 @@ import CenteredWithBackgroundImage from "./Centered with background image";
 const HeaderSections = () => {
   return (
     <div>
-      <MainHeaderSection title={"Header Sections"} tag={"Page Section"} />
+      <MainHeaderSection goto={'marketing'} section={'Marketing'} title={"Header Sections"} tag={"Page Section"} />
       <FirstHeaderSection title={"With stats"}>
         <div className="mx-2">
           <WithStats />

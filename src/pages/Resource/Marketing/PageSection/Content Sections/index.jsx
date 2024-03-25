@@ -12,7 +12,7 @@ import Centered from './Centered'
 const ContentSections = () => {
   return (
     <div>
-      <MainHeaderSection title={'Content Sections'} tag={'Page Section'} />
+      <MainHeaderSection goto={'marketing'} section={'Marketing'} title={'Content Sections'} tag={'Page Section'} />
       <FirstHeaderSection title={'With sticky product screenshot'}>
     <div className="border-2 border-gray-200 rounded-lg">
       <WithStickyProductScreenshot />
