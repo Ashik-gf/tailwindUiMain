@@ -96,6 +96,14 @@ import Category_Previews from '@pages/Resource/Ecommerce/Category Previews'
 import Shopping_Carts from '@pages/Resource/Ecommerce/Shopping Carts'
 import CategoryFilters from '@pages/Resource/Ecommerce/Category Filters'
 import Product_Quickviews from '@pages/Resource/Ecommerce/Product Quickviews'
+import Product_Features from '@pages/Resource/Ecommerce/Product Features'
+import StoreNavigation from '@pages/Resource/Ecommerce/StoreNavigation'
+import PromoSections from '@pages/Resource/Ecommerce/PromoSections'
+import CheckoutForms from '@pages/Resource/Ecommerce/CheckoutForms'
+import Reviews from '@pages/Resource/Ecommerce/Reviews'
+import OrderSummaries from '@pages/Resource/Ecommerce/OrderSummaries'
+import OrderHistory from '@pages/Resource/Ecommerce/OrderHistory'
+import Incentives from '@pages/Resource/Ecommerce/Incentives'
 
 
 
@@ -200,6 +208,14 @@ export const RoutesConfig = [
 {path: Routes.shopingCarts, element: <Shopping_Carts /> },
 {path: Routes.catagoryFilter, element: <CategoryFilters /> },
 {path: Routes.productsQuickViews, element: <Product_Quickviews /> },
+{path: Routes.productsFeatures, element: <Product_Features /> },
+{path: Routes.storeNavigation, element: <StoreNavigation /> },
+{path: Routes.promoSection, element: <PromoSections /> },
+{path: Routes.checkoutForms, element: <CheckoutForms /> },
+{path: Routes.reviews, element: <Reviews /> },
+{path: Routes.orderSumeries, element: <OrderSummaries /> },
+{path: Routes.orderHistory, element: <OrderHistory /> },
+{path: Routes.incentives, element: <Incentives /> },
 
 
 

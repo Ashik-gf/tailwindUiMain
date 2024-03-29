@@ -88,6 +88,14 @@ export const Routes = {
   shopingCarts:'/resource/shopingCarts',
   catagoryFilter:'/resource/catagoryFilter',
   productsQuickViews:'/resource/productsQuickViews',
+  productsFeatures:'/resource/productsFeatures',
+  storeNavigation:'/resource/storeNavigation',
+  promoSection:'/resource/promoSection',
+  checkoutForms:'/resource/checkoutForms',
+  reviews:'/resource/reviews',
+  orderSumeries:'/resource/orderSumeries',
+  orderHistory:'/resource/orderHistory',
+  incentives:'/resource/incentives',
  
 
   dashboard: '/dashboard',

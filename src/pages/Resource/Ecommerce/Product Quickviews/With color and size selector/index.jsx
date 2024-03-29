@@ -6,14 +6,14 @@ const With_color_and_size_selector = ({className}) => {
     <div className={`${className} relative`}>
       <div class="relative  z-10" role="dialog" aria-modal="true">
         <div class={` ${open ? " absolute h-[300px] inset-0 hidden bg-gray-500 bg-opacity-75 transition-opacity md:block":" hidden"} "`}></div>
-       <div className=" flex justify-center w-full pt-12">
+       <div className=" flex justify-center w-full p-0 sm:pt-12">
         <img className= {` ${open ? 'hidden':'h-64 w-64'}`}src="https://tailwindui.com/img/ecommerce-images/product-quick-preview-02-preview.jpg">
         </img>
        <button
           onClick={() => setOpen(true)}
           className={`${
             open ? "hidden" : ""
-          } p-2 bg-gray-200 bg-transparent/40 text-white rounded-lg`}
+          } p-2 bg-gray-200 bg-transparent/40 text-white rounded-r-lg`}
         >
           Click Hare
         </button>

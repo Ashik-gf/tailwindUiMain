@@ -53,14 +53,14 @@ export default function With_color_selector_size_selector_and_details_link() {
         ></div>
         <div className=" flex justify-center w-full pt-12">
           <img
-            className={` ${open ? "hidden" : "h-64 w-64"}`}
-            src="https://tailwindui.com/img/ecommerce-images/product-quick-preview-02-preview.jpg"
+            className={` ${open ? "hidden" : "h-full w-64"}`}
+            src="https://tailwindui.com/img/ecommerce-images/product-page-01-featured-product-shot.jpg"
           ></img>
           <button
             onClick={() => setOpen(true)}
             className={`${
               open ? "hidden" : ""
-            } p-2 bg-gray-200 bg-transparent/40 text-white rounded-lg`}
+            } p-2 bg-gray-200 bg-transparent/40 text-white rounded-r-lg`}
           >
             Click Hare
           </button>
