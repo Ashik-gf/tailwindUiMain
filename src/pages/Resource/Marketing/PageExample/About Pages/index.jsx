@@ -13,6 +13,7 @@ const AboutPages = () => {
   return (
     <div>
       <MainHeaderSection
+        goto={'marketing'} 
         title={"About Pages"}
         section={"Marketing"}
         tag={"Page Example"}

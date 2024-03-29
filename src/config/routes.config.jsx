@@ -89,6 +89,13 @@ import FeedBack from '@pages/Resource/Marketing/FeedBack'
 import LandingPage from '@pages/Resource/Marketing/PageExample/Landing Pages'
 import PricingPages from '@pages/Resource/Marketing/PageExample/Pricing Pages'
 import AboutPages from '@pages/Resource/Marketing/PageExample/About Pages'
+import Ecommerce from '@pages/Resource/Ecommerce'
+import ProductsOverViews from '@pages/Resource/Ecommerce/Product Overviews'
+import ProductsList from '@pages/Resource/Ecommerce/ProductsList'
+import Category_Previews from '@pages/Resource/Ecommerce/Category Previews'
+import Shopping_Carts from '@pages/Resource/Ecommerce/Shopping Carts'
+import CategoryFilters from '@pages/Resource/Ecommerce/Category Filters'
+import Product_Quickviews from '@pages/Resource/Ecommerce/Product Quickviews'
 
 
 
@@ -186,6 +193,13 @@ export const RoutesConfig = [
 {path: Routes.landingPage, element: <LandingPage />},
 {path: Routes.pricingPages, element: <PricingPages />},
 {path: Routes.aboutPages, element: <AboutPages />},
+{path: Routes.ecommerce, element: <Ecommerce /> },
+{path: Routes.productsOverviews, element: <ProductsOverViews /> },
+{path: Routes.productsList, element: <ProductsList /> },
+{path: Routes.catagoryPreviews, element: <Category_Previews /> },
+{path: Routes.shopingCarts, element: <Shopping_Carts /> },
+{path: Routes.catagoryFilter, element: <CategoryFilters /> },
+{path: Routes.productsQuickViews, element: <Product_Quickviews /> },
 
 
 
@@ -202,6 +216,7 @@ export const RoutesConfig = [
       { path: Routes.settings, element: <Users /> },
       { path: Routes.profile, element: <Profile /> },
       { path: Routes.logout, element: <Logout /> },
+     
     ],
   },
   {

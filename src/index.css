@@ -444,7 +444,7 @@ body.is-monochrome:before {
 .app-preloader .app-preloader-inner:after,
 .app-preloader .app-preloader-inner:before {
   --tw-content: '';
-  background-color: rgba(203, 213, 225, 0.25);
+  background-color: rgba(188, 108, 199, 0.25);
   border-radius: 9999px;
   content: var(--tw-content);
   height: 100%;

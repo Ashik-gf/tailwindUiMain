@@ -16,7 +16,7 @@ const navbar = [
   {
     id: "4",
     title: "Ecommerce",
-    path: "/mainelements/ecommerce",
+    path: "/resource/ecommerce",
     
   },
   {

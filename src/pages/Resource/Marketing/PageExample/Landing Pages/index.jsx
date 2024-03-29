@@ -16,6 +16,7 @@ const LandingPage = () => {
         title={"Landing Pages"}
         section={"Marketing"}
         tag={"Page Example"}
+        goto={'marketing'} 
       />
       <FirstHeaderSection title={"With screenshots and stats"}>
         <div className="border-2 border-gray-200 rounded-xl">

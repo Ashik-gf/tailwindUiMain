@@ -13,8 +13,10 @@ const FeedBack = () => {
     <div>
       <MainHeaderSection
         title={"FeedBack"}
+        goto={'marketing'} 
         section={"Marketing"}
         tag={"FeedBack"}
+        
       />
       <FirstHeaderSection title={"Simple"}>
         <div className=" border-[1px] border-gray-200 rounded-lg">

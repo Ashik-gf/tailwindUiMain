@@ -80,6 +80,14 @@ export const Routes = {
   landingPage:'/resource/landingPage',
   pricingPages:'/resource/pricingPages',
   aboutPages:'/resource/aboutPages',
+  // Ecomerce
+  ecommerce:'/resource/ecommerce',
+  productsOverviews:'/resource/productsOverviews',
+  productsList:'/resource/productsList',
+  catagoryPreviews:'/resource/catagoryPreviews',
+  shopingCarts:'/resource/shopingCarts',
+  catagoryFilter:'/resource/catagoryFilter',
+  productsQuickViews:'/resource/productsQuickViews',
  
 
   dashboard: '/dashboard',

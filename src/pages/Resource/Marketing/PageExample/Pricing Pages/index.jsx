@@ -17,6 +17,7 @@ const PricingPages = () => {
         title={"Pricing Page"}
         section={"Marketing"}
         tag={"Page Example"}
+        goto={'marketing'} 
       />
       <FirstHeaderSection title={"With four tiers"}>
         <div className="border-2 border-gray-200 rounded-lg">
