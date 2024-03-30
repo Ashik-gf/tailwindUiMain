@@ -9,7 +9,7 @@ export default function WithRightLabel() {
       };
       const [isChecked, setIsChecked] = useState(false);
   return (
-   <div className=' flex justify-between items-center'>
+   <div className='px-4 flex justify-between gap-8 items-center'>
 <div
     className={`relative inline-block w-10 h-6 rounded-full bg-gray-300 transition duration-300 ease-in-out ${
       isChecked ? 'bg-green-400' : ''

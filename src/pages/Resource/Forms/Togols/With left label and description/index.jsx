@@ -9,11 +9,11 @@ export default function WithLeftLabelAndDescription() {
       };
       const [isChecked, setIsChecked] = useState(false);
   return (
-   <div className=' flex justify-between items-center'>
+   <div className=' w-full px-6 overflow-hidden  flex justify-center items-center gap-6'>
 
 <div>
     <p className='text-sm font-medium leading-6 text-gray-900'> Available to hire</p>
-    <p className='text-sm text-gray-500'> Nulla amet tempus sit accumsan. Aliquet turpis sed sit lacinia.</p>
+    <p className='text-sm overflow-hidden text-gray-500'> Nulla amet tempus sit accumsan. Aliquet turpis sed sit lacinia.</p>
 </div>
 
 <div
