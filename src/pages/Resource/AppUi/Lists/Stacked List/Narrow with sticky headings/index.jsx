@@ -205,10 +205,10 @@ const directory = {
   
   export default function NarrowWithStickyHeadings() {
     return (
-      <nav className="h-full overflow-y-auto" aria-label="Directory">
+      <nav className=" overflow-y-auto h-[300px]" aria-label="Directory">
         {Object.keys(directory).map((letter) => (
-          <div key={letter} className="relative">
-            <div className="sticky top-0 z-10 border-y border-b-gray-200 border-t-gray-100 bg-gray-50 px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900">
+          <div key={letter} className="relative ">
+            <div className=" sticky top-0 z-10 border-y border-b-gray-200 border-t-gray-100 bg-gray-50 px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900">
               <h3>{letter}</h3>
             </div>
             <ul role="list" className="divide-y divide-gray-100">

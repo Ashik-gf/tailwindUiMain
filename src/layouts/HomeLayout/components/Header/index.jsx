@@ -28,7 +28,7 @@ const Header = () => {
   return (
     <div className='header-container relative flex w-full bg-white dark:bg-navy-700 print:hidden'>
       {/* Header Items */}
-      <div className='flex w-full items-center justify-between'>
+      <div className='sm:flex w-full items-center justify-between'>
         {/* Left  */}
         <div className='flex items-center space-x-2'>
           <img className='h-10 w-10' src={AppLogo} alt='logo' />
@@ -38,7 +38,8 @@ const Header = () => {
         </div>
 
         {/* Right: Header buttons */}
-        <div className='-mr-1.5 flex items-center space-x-2'>
+        <div className=' grid grid-cols-2 gap-4 -mr-1.5 sm:flex items-center space-x-2'>
+          
           <Link
             to={Routes.home}
             class='btn border border-primary font-medium text-primary hover:bg-primary hover:text-white focus:bg-primary focus:text-white active:bg-primary/90 dark:border-primary dark:text-primary-light dark:hover:bg-primary dark:hover:text-white dark:focus:bg-primary dark:focus:text-white dark:active:bg-primary/90'

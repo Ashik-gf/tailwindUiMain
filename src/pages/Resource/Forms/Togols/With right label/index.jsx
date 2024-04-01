@@ -24,7 +24,7 @@ export default function WithRightLabel() {
   </div>
   <div>
     <p className='text-sm font-medium leading-6 text-gray-900'> Available to hire</p>
-    <p className='text-sm text-gray-500'> Nulla amet tempus sit accumsan. Aliquet turpis sed sit lacinia.</p>
+    <p className=' text-wrap text-sm text-gray-500'> Nulla amet tempus sit accumsan. Aliquet turpis sed sit lacinia.</p>
 </div>
 
 

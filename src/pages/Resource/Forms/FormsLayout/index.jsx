@@ -13,7 +13,7 @@ const FromsLayout = () => {
       <MainHeaderSection goto={'appui'} section={'Application UI'} tag={'Froms'} title={"Form Layouts"} />
       {/* Stacked */}
       <HeaderSection title={"Stacked"}>
-        <div className=" mx-32">
+        <div className=" sm:mx-32">
           <Stacked />
         </div>
       </HeaderSection>
@@ -21,7 +21,7 @@ const FromsLayout = () => {
       {/* Stacked on dark */}
       <HeaderSection className={'p-0'} title={"Stacked on dark"}>
        <div className=" w-full bg-gray-800 rounded-md">
-       <div className=" mx-32 p-4">
+       <div className=" sm:mx-32 p-4">
           <StackedOnDark />
         </div>
        </div>
@@ -29,7 +29,7 @@ const FromsLayout = () => {
       {/* Two-column */}
       <HeaderSection className={'p-0'} title={"Two-column"}>
        <div className=" w-full rounded-md">
-       <div className=" mx-8 p-4">
+       <div className=" sm:mx-8 p-4">
           <TwoColumn />
         </div>
        </div>
@@ -37,7 +37,7 @@ const FromsLayout = () => {
       {/* Two-column with cards */}
       <HeaderSection className={'p-0'} title={"Two-column with cards"}>
        <div className=" w-full rounded-md">
-       <div className=" mx-8 p-4">
+       <div className=" sm:mx-8 p-4">
           <TwoColumnWithCards />
         </div>
        </div>
@@ -45,7 +45,7 @@ const FromsLayout = () => {
       {/* Labels on left */}
       <HeaderSection className={'p-0'} title={"Labels on left"}>
        <div className=" w-full rounded-md">
-       <div className=" mx-8 p-4">
+       <div className=" sm:mx-8 p-4">
           <LabelsonLeft />
         </div>
        </div>

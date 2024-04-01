@@ -17,7 +17,7 @@ const Resource = () => {
   }
   return (
     <>
-      <div id="root" className=" w-full px-2 md:px-8 mt-2 block grow dark:bg-navy-900">
+      <div id="root" className="  sm:w-full px-2 md:px-8 mt-2 block grow dark:bg-navy-900">
         <main className=" md:block  ">
          <div className={` md:block ${open ? "flex":"hidden"} relative`}>
          <LeftSideBar />
