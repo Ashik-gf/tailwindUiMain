@@ -14,19 +14,19 @@ const SelectsMenus = () => {
     <div>
       <MainHeaderSection goto={'appui'} section={'Application UI'} tag={'Forms'} className={'border-2'} title={'Select Menus'}></MainHeaderSection>
       <FirstHeaderSection className={'border-2 border-gray-200 bg-[#F3F4F6] rounded-lg h-[350px]'} title={'Custom with avatar'}>
-      <div className='mx-[200px] my-12  content-center'>
+      <div className=' px-[100px] sm:px-[200px] my-12  content-center'>
 <CustomWithAvatar />
     </div>
       </FirstHeaderSection>
       {/* Simple native */}
       <HeaderSection title={'Simple Native'}>
-      <div className='mx-[200px] my-12  content-center'>
+      <div className='px-[100px] sm:px-[200px] my-12  content-center'>
 <CustomWithCheckOnLeft />
     </div>
       </HeaderSection>
       {/* Simple custom */}
       <HeaderSection title={'Simple custom'}>
-      <div className='mx-[200px] my-12  content-center'>
+      <div className='px-[100px] sm:px-[200px] my-12  content-center'>
 <CustomWithCheckOnLeft />
     </div>
       </HeaderSection>
@@ -38,19 +38,19 @@ const SelectsMenus = () => {
       </HeaderSection>
       {/* Custom with status indicator  */}
       <HeaderSection title={'Custom with status indicator '}>
-      <div className='mx-[200px] my-12  content-center'>
+      <div className='px-[100px] sm:px-[200px] my-12  content-center'>
 < CustomWithStatusIndicator/>
     </div>
       </HeaderSection>
       {/* With secondary text  */}
       <HeaderSection title={'With secondary text '}>
-      <div className='mx-[200px] my-12  content-center'>
+      <div className='px-[100px] sm:px-[200px] my-12  content-center'>
 < WithSecondaryText/>
     </div>
       </HeaderSection>
       {/* Branded with supported text  */}
       <HeaderSection title={'Branded with supported text '}>
-      <div className='mx-[200px] my-12  content-center'>
+      <div className='px-[100px] sm:px-[200px] my-12  content-center'>
 < BrandedWithSupportedText />
     </div>
       </HeaderSection>
