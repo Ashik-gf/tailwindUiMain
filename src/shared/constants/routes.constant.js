@@ -96,6 +96,13 @@ export const Routes = {
   orderSumeries:'/resource/orderSumeries',
   orderHistory:'/resource/orderHistory',
   incentives:'/resource/incentives',
+  storeFrontPages:'/resource/storeFrontPages',
+  productsPages:'/resource/productsPages',
+  catagoryPages:'/resource/catagoryPages',
+  shopingCartsPages:'/resource/shopingCartsPages',
+  checkoutPages:'/resource/checkoutPages',
+  orderDetailsPages:'/resource/orderDetailsPages',
+  orderHistoryPages:'/resource/orderHistoryPages',
  
 
   dashboard: '/dashboard',

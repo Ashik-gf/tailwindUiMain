@@ -104,6 +104,13 @@ import Reviews from '@pages/Resource/Ecommerce/Reviews'
 import OrderSummaries from '@pages/Resource/Ecommerce/OrderSummaries'
 import OrderHistory from '@pages/Resource/Ecommerce/OrderHistory'
 import Incentives from '@pages/Resource/Ecommerce/Incentives'
+import StorefrontPages from '@pages/Resource/Ecommerce/PageExample/Storefront Pages'
+import ProductPages from '@pages/Resource/Ecommerce/PageExample/Product Pages'
+import CategoryPages from '@pages/Resource/Ecommerce/PageExample/Category Pages'
+import ShopingCartPages from '@pages/Resource/Ecommerce/PageExample/Shopping Cart Pages'
+import CheckoutPages from '@pages/Resource/Ecommerce/PageExample/Checkout Pages'
+import OrderHistoryPages from '@pages/Resource/Ecommerce/PageExample/Order History Pages'
+import OrderDetailPages from '@pages/Resource/Ecommerce/PageExample/Order Detail Pages'
 
 
 
@@ -216,6 +223,13 @@ export const RoutesConfig = [
 {path: Routes.orderSumeries, element: <OrderSummaries /> },
 {path: Routes.orderHistory, element: <OrderHistory /> },
 {path: Routes.incentives, element: <Incentives /> },
+{path: Routes.storeFrontPages, element: <StorefrontPages /> },
+{path: Routes.productsPages, element: <ProductPages /> },
+{path: Routes.catagoryPages, element: <CategoryPages /> },
+{path: Routes.shopingCartsPages, element: <ShopingCartPages /> },
+{path: Routes.checkoutPages, element: <CheckoutPages /> },
+{path: Routes.orderDetailsPages, element: <OrderDetailPages /> },
+{path: Routes.orderHistoryPages, element: <OrderHistoryPages /> },
 
 
 
