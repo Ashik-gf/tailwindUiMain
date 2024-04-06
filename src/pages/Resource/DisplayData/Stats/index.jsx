@@ -18,31 +18,31 @@ const Stats = () => {
       </MainHeaderSection>
       {/* With Trending */}
       <HeaderSection className={""} title={"With Trending"}>
-        <div className=" mx-20">
+        <div className=" sm:mx-20">
         <WithTrending />
         </div>
       </HeaderSection>
       {/* Simple on dark */}
       <HeaderSection className={""} title={"Simple on dark"}>
-        <div className=" mx-20">
+        <div className=" sm:mx-20">
         <SimpleOnDark />
         </div>
       </HeaderSection>
       {/* Simple in cards */}
       <HeaderSection className={""} title={"Simple in cards"}>
-        <div className=" mx-20">
+        <div className=" sm:mx-20">
         <SimpleInCards />
         </div>
       </HeaderSection>
       {/* With brand icon */}
       <HeaderSection className={""} title={"With brand icon"}>
-        <div className=" mx-20">
+        <div className=" sm:mx-20">
         <WithBrandIcon />
         </div>
       </HeaderSection>
       {/* With shared borders */}
       <HeaderSection className={""} title={"With shared borders"}>
-        <div className=" mx-20">
+        <div className=" sm:mx-20">
         <WithSharedBorders />
         </div>
       </HeaderSection>
