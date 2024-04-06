@@ -29,14 +29,14 @@ const InputGroups = () => {
     <div>
       <MainHeaderSection goto={'appui'} section={'Application UI'} tag={'Froms'} title={'Input Groups'}></MainHeaderSection>
       <FirstHeaderSection title={'Input with inline leading add-on and trailing dropdown'} className={'border-2 border-gray-200 py-10 rounded-lg'} >
-        <div className=' sm:mx-52'>
+        <div className=' sm:px-52'>
            <InputWithInlineLeadingAddonAndTrailingDropdown />
         </div>
        
       </FirstHeaderSection>
       {/* Input with label */}
       <HeaderSection title={'Input with label'}>
-<div className='sm:sm:px-32'>
+<div className='sm:px-32'>
 <InputWithLable />
 </div>
       </HeaderSection>
