@@ -1,6 +1,6 @@
 export default function SoftButtons() {
     return (
-      <div className=" flex flex-wrap gap-x-6 gap-y-3">
+      <div className=" flex justify-center flex-wrap gap-x-6 gap-y-3">
         <button
           
           className="rounded bg-indigo-50 px-2 py-1 text-xs font-semibold text-indigo-600 shadow-sm hover:bg-indigo-100"

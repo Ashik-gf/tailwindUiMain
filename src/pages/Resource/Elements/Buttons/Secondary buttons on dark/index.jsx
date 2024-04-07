@@ -1,6 +1,6 @@
 export default function SecondaryButtonsOnDark() {
     return (
-      <div div className=" flex flex-wrap gap-x-6 gap-y-3">
+      <div div className=" flex justify-center flex-wrap gap-x-6 gap-y-3">
         <button
           
           className="rounded bg-white/10 px-2 py-1 text-xs font-semibold text-white shadow-sm hover:bg-white/20"

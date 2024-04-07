@@ -172,9 +172,7 @@ const Marketing = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 md:col-span-3  w-full">
             {data.map((d, i) => (
               <Link key={i} to={d.pathNmae}>
- <div
-                
-                className="w-full md:w-[270px] hover:bg-[#F3F4F6] rounded-md cursor-pointer "
+ <div className="w-full md:w-[270px] p-2 hover:bg-[#F3F4F6] rounded-md cursor-pointer "
               >
                 <div className=" w-[370px] md:w-[250px] pt-4 my-4 mx-auto border-2 border-gray-200/90 rounded-md">
                   <img
@@ -182,7 +180,7 @@ const Marketing = () => {
                     // src={d?.image}
                   ></img>
                 </div>
-                <div className=" w-[240px] my-2 mx-auto text-start">
+                <div className=" w-[250px] px-4 my-2 sm:mx-auto text-start">
                   <p className=" text-black hover:text-blue-600"> {d.title}</p>
                   <p>{d.lenght}</p>
                 </div>
@@ -191,6 +189,7 @@ const Marketing = () => {
              
             ))}
           </div>
+          
         </div>
       </div>
        {/* Elements */}
@@ -219,7 +218,7 @@ const Marketing = () => {
                     src={d?.image}
                   ></img>
                 </div>
-                <div className=" w-[240px] my-2 mx-auto text-start">
+                <div className=" broder-2 w-[240px] my-2 mx-auto text-start">
                   <p className=" text-black hover:text-blue-600"> {d.title}</p>
                   <p>{d.lenght}</p>
                 </div>

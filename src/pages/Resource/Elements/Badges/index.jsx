@@ -24,7 +24,7 @@ import SmallFlatPillWithDot from "./Small flat pill with dot";
 const Badges = () => {
   return (
     <div>
-      <MainHeaderSection tag={"Elements"} title={"Badges"} />
+      <MainHeaderSection tag={"Elements"} title={"Badges"} section={'Application UI'}  />
       <FirstHeaderSection
         className={" px-5 py-10"}
         title={"With border"}

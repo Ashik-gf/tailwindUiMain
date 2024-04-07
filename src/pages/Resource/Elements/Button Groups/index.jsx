@@ -12,34 +12,26 @@ const ButtonGroup = () => {
     <div>
       <MainHeaderSection title={"ButtonGroup"} tag={"Elements"} />
       {/* Basic */}
-      <HeaderSection title={"Basic"}>
-        <div className=" flex justify-center py-12">
-          <Basic />
-        </div>
+      <HeaderSection 
+       className={" py-8 sm:py-24 px-40 md:px-[200px] lg:px-[500px]"}
+      title={"Basic"}>
+        <Basic />
       </HeaderSection>
       {/*Icon only */}
-      <HeaderSection title={"Icon only"}>
-        <div className=" flex justify-center py-12">
-          <IconOnly />
-        </div>
+      <HeaderSection  className={" py-8 sm:py-24 px-40  md:px-[200px] lg:px-[500px]"} title={"Icon only"}>
+        <IconOnly />
       </HeaderSection>
       {/*With stat */}
-      <HeaderSection title={"With stat"}>
-        <div className=" flex justify-center py-12">
-          <WithStat />
-        </div>
+      <HeaderSection  className={" py-8 sm:py-24 px-40 md:px-[200px] lg:px-[500px]"} title={"With stat"}>
+        <WithStat />
       </HeaderSection>
       {/*With dropdown */}
-      <HeaderSection title={"With dropdown"}>
-        <div className=" flex justify-center py-12">
-          <WithDropdown />
-        </div>
+      <HeaderSection  className={" h-[250px] py-8 sm:py-24 px-40 md:px-[200px] lg:px-[500px]"} title={"With dropdown"}>
+        <WithDropdown />
       </HeaderSection>
       {/*With checkbox and dropdown */}
-      <HeaderSection title={"With checkbox and dropdown"}>
-        <div className=" flex justify-center py-12">
-          <WithCheckboxAndDropdown />
-        </div>
+      <HeaderSection  className={" h-[150px] py-8 sm:py-24 px-40 md:px-[200px] lg:px-[500px]"} title={"With checkbox and dropdown"}>
+        <WithCheckboxAndDropdown />
       </HeaderSection>
     </div>
   );

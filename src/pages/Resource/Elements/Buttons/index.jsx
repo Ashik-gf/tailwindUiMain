@@ -16,65 +16,80 @@ import CircularButtons from "./Circular buttons";
 const Button = () => {
   return (
     <div>
-      <MainHeaderSection title={"Button"} tag={"Elements"} />
-      <FirstHeaderSection title={"Primary buttons"}>
-        <div className="border-2 rounded-lg  flex justify-center items-center py-12 ">
-          <PrimaryButtons />
-        </div>
+      <MainHeaderSection
+        title={"Buttons"}
+        goto={"applicationui"}
+        section={"Application UI"}
+        tag={"Elements"}
+      />
+      <FirstHeaderSection
+        className={" py-8 sm:py-24 px-40 sm:px-[200px]"}
+        title={"Primary buttons"}
+      >
+        <PrimaryButtons />
       </FirstHeaderSection>
       {/* Secondary buttons */}
-      <HeaderSection title={"Secondary buttons"}>
-        <div className="border-2 rounded-lg  flex justify-center items-center py-12">
-          <SecondaryButtons />
-        </div>
+      <HeaderSection
+        className={" py-8 sm:py-24 px-40 sm:px-[200px]"}
+        title={"Secondary buttons"}
+      >
+        <SecondaryButtons />
       </HeaderSection>
       {/* Primary buttons on dark */}
-      <HeaderSection title={"Primary buttons on dark"}>
-        <div className="border-2 rounded-lg  flex justify-center items-center py-12">
-          <PrimaryButtonsOnDark />
-        </div>
+      <HeaderSection
+        className={" py-8 sm:py-24 px-40 sm:px-[200px]"}
+        title={"Primary buttons on dark"}
+      >
+        <PrimaryButtonsOnDark />
       </HeaderSection>
       {/* Secondary buttons on dark */}
-      <HeaderSection title={"Secondary buttons on dark"}>
-        <div className="border-2 rounded-lg  flex justify-center items-center py-12">
-          <SecondaryButtonsOnDark />
-        </div>
+      <HeaderSection
+        className={" bg-gray-900  py-8 sm:py-24 px-40 sm:px-[200px]"}
+        title={"Secondary buttons on dark"}
+      >
+        <SecondaryButtonsOnDark />
       </HeaderSection>
       {/* Soft buttons */}
-      <HeaderSection title={"Soft buttons"}>
-        <div className="border-2 rounded-lg  flex justify-center items-center py-12">
-          <SoftButtons />
-        </div>
+      <HeaderSection
+        className={" py-8 sm:py-24 px-40 sm:px-[200px]"}
+        title={"Soft buttons"}
+      >
+        <SoftButtons />
       </HeaderSection>
       {/* Buttons with leading icon */}
-      <HeaderSection title={"Buttons with leading icon"}>
-        <div className="border-2 rounded-lg  flex justify-center items-center py-12">
-          <ButtonsWithleadingIcon />
-        </div>
+      <HeaderSection
+        className={" py-8 sm:py-24 px-40 sm:px-[200px]"}
+        title={"Buttons with leading icon"}
+      >
+        <ButtonsWithleadingIcon />
       </HeaderSection>
       {/* Buttons with trailing icon */}
-      <HeaderSection title={"Buttons with trailing icon"}>
-        <div className="border-2 rounded-lg  flex justify-center items-center py-12">
-          <ButtonsWithtrailingIcon />
-        </div>
+      <HeaderSection
+        className={" py-8 sm:py-24 px-40 sm:px-[200px]"}
+        title={"Buttons with trailing icon"}
+      >
+        <ButtonsWithtrailingIcon />
       </HeaderSection>
       {/* Rounded primary buttons */}
-      <HeaderSection title={"Rounded primary buttons"}>
-        <div className="border-2 rounded-lg  flex justify-center items-center py-12">
-          <RoundedPrimaryButtons />
-        </div>
+      <HeaderSection
+        className={" py-8 sm:py-24 px-40 sm:px-[200px]"}
+        title={"Rounded primary buttons"}
+      >
+        <RoundedPrimaryButtons />
       </HeaderSection>
       {/* Rounded secondary buttons */}
-      <HeaderSection title={"Rounded secondary buttons"}>
-        <div className="border-2 rounded-lg  flex justify-center items-center py-12">
-          <RoundedSecondaryButtons />
-        </div>
+      <HeaderSection
+        className={" py-8 sm:py-24 px-40 sm:px-[200px]"}
+        title={"Rounded secondary buttons"}
+      >
+        <RoundedSecondaryButtons />
       </HeaderSection>
       {/* Circular buttons */}
-      <HeaderSection title={"Circular buttons"}>
-        <div className="border-2 rounded-lg  flex justify-center items-center py-12">
-          <CircularButtons />
-        </div>
+      <HeaderSection
+        className={" py-8 sm:py-24 px-40 sm:px-[200px]"}
+        title={"Circular buttons"}
+      >
+        <CircularButtons />
       </HeaderSection>
     </div>
   );

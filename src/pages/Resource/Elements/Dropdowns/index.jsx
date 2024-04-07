@@ -10,35 +10,43 @@ import WithMinimalMenuIcon from "./With minimal menu icon";
 const DropDown = () => {
   return (
     <div>
-      <MainHeaderSection tag={"Elements"} title={"DropDown"} />
-      <FirstHeaderSection title={'Simple'}>
+      <MainHeaderSection
+        tag={"Elements"}
+        goto={"applicationui"}
+        title={"DropDown"}
+        section={"Application UI"}
+      />
+      <FirstHeaderSection title={"Simple"}>
         <div className="div h-[300px] flex justify-center py-12 border-2 border-gray-100">
           <Simple />
         </div>
       </FirstHeaderSection>
       {/* With dividers */}
-      <HeaderSection title={"With dividers"}>
-        <div className="div h-[300px] flex justify-center py-12 border-2 border-gray-100">
-          <WithDividers />
-        </div>
+      <HeaderSection
+        className={"h-[380px] py-4 px-48 sm:px-[300px]"}
+        title={"With dividers"}
+      >
+        <WithDividers />
       </HeaderSection>
       {/* With icons */}
-      <HeaderSection title={"With icons"}>
-        <div className="div h-[300px] flex justify-center py-12 border-2 border-gray-100">
-          <WithIcons />
-        </div>
+      <HeaderSection
+        className={"h-[380px] py-4 px-48 sm:px-[300px]"}
+        title={"With icons"}
+      >
+        <WithIcons />
       </HeaderSection>
       {/* With minimal menu icon */}
-      <HeaderSection title={"With minimal menu icon"}>
-        <div className="div h-[300px] flex justify-center py-12 border-2 border-gray-100">
-          <WithMinimalMenuIcon />
-        </div>
+      <HeaderSection
+        className={"h-[380px] py-4 px-60 sm:px-[300px]"}
+        title={"With minimal menu icon"}
+      >
+        <WithMinimalMenuIcon />
       </HeaderSection>
       {/* With simple header */}
-      <HeaderSection title={"With simple header"}>
-        <div className="div h-[300px] flex justify-center py-12 border-2 border-gray-100">
-          <WithMinimalMenuIcon />
-        </div>
+      <HeaderSection
+      className={'h-[380px] py-4 px-60 sm:px-[300px]'}
+      title={"With simple header"}>
+        <WithMinimalMenuIcon />
       </HeaderSection>
     </div>
   );
