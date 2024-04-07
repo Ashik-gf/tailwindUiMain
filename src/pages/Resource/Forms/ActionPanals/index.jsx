@@ -16,49 +16,49 @@ const ActionPanals = () => {
     <div>
       <MainHeaderSection goto={'appui'} section={'Application UI'} tag={'Forms'} title={'Action Panels'} />
       <HeaderSection title={'Action Panels'}>
-        <div className=' mx-64'>
+        <div className=' px-12 py-24 md:px-20 lg:px-72 border-2 border-gray-200 rounded-md'>
         <Simple />
         </div>
       </HeaderSection>
       {/* With link */}
       <HeaderSection title={'With link'}>
-        <div className=' mx-64'>
+        <div className=' px-12 py-24 md:px-20 lg:px-72 border-2 border-gray-200 rounded-md'>
         <WithLink />
         </div>
       </HeaderSection>
       {/*With button on right */}
       <HeaderSection title={'With button on right'}>
-        <div className=' mx-64'>
+        <div className='px-12 py-24 md:px-20 lg:px-72 border-2 border-gray-200 rounded-md'>
         <WithButtonOnRight />
         </div>
       </HeaderSection>
       {/*With button at top right */}
       <HeaderSection title={'With button at top right'}>
-        <div className=' mx-64'>
+        <div className='px-12 py-24 md:px-20 lg:px-72 border-2 border-gray-200 rounded-md'>
         <WithButtonAtTopRight />
         </div>
       </HeaderSection>
       {/*With toggle */}
       <HeaderSection title={'With toggle'}>
-        <div className=' mx-32'>
+        <div className=' px-12 py-24 md:px-20 lg:px-72 border-2 border-gray-200 rounded-md'>
         <WithToggle />
         </div>
       </HeaderSection>
       {/*With input */}
       <HeaderSection title={'With input'}>
-        <div className=' mx-64'>
+        <div className='px-12 py-24 md:px-20 lg:px-72 border-2 border-gray-200 rounded-md'>
         <WithInput />
         </div>
       </HeaderSection>
       {/*Simple well */}
       <HeaderSection title={'Simple well'}>
-        <div className=' mx-64'>
+        <div className='px-12 py-24 md:px-20 lg:px-72 border-2 border-gray-200 rounded-md'>
         <SimpleWell />
         </div>
       </HeaderSection>
       {/*With well */}
       <HeaderSection title={'With well'}>
-        <div className=' mx-64'>
+        <div className='px-12 py-24 md:px-20 lg:px-72 border-2 border-gray-200 rounded-md'>
         <WithWell />
         </div>
       </HeaderSection>

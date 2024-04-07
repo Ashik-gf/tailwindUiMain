@@ -2,7 +2,7 @@ import React from 'react'
 
 const HeaderSection = ({children, title, className}) => {
   return (
-    <div className={`${className}`}>
+    <div className={''}>
          <div className="grid grid-cols-[1fr,auto] items-center mb-8 mt-8 ">
           <div className="flex min-w-0 ">
             <h2 className="truncate text-base font-medium leading-7 text-slate-900">
@@ -18,7 +18,7 @@ const HeaderSection = ({children, title, className}) => {
             </a>
           </div>
         </div>
-        <div className={`${className}  `}>
+        <div className={`${className} border-2 border-gray-200 rounded-md`}>
             {children}
         </div>
     </div>

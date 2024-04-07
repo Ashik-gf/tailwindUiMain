@@ -13,31 +13,31 @@ const TextAreas = () => {
     <div>
       <MainHeaderSection goto={'appui'} section={'Application UI'} tag={'Froms'} title={"Textareas"} />
       <FirstHeaderSection title={"Simple"}>
-        <div className=" mx-72 ">
+        <div className=" lg:px-72 ">
           <Simple />
         </div>
       </FirstHeaderSection>
       {/* With avatar and actions */}
       <HeaderSection title={"With Avatar and Action"}>
-        <div className=" mx-72 ">
+        <div className=" lg:px-72 ">
           <WithAvatarAndActions />
         </div>
       </HeaderSection>
       {/* With underline and actions */}
       <HeaderSection title={"With underline and actions"}>
-        <div className=" mx-72 ">
+        <div className=" lg:px-72 ">
           <WithUnderlineAndActions />
         </div>
       </HeaderSection>
       {/* With title and pill actions */}
       <HeaderSection title={"With title and pill actions"}>
-        <div className=" mx-72 ">
+        <div className=" lg:px-72 ">
           <WithTitleAndPillActions />
         </div>
       </HeaderSection>
       {/* With preview button */}
       <HeaderSection title={"With preview button"}>
-        <div className="mx-72 ">
+        <div className="lg:px-72 ">
           <WithPreviewButton />
         </div>
       </HeaderSection>

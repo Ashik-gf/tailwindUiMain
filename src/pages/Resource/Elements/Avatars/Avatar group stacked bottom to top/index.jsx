@@ -1,7 +1,7 @@
 export default function AvatarGroupStackedBottomToTop() {
     return (
       <>
-      <div className=" flex justify-center gap-8 my-12">
+      <div className=" flex flex-col sm:flex-row sm:justify-center gap-8 my-12">
       <div className="flex -space-x-1 overflow-hidden">
           <img
             className="inline-block h-6 w-6 rounded-full ring-2 ring-white"

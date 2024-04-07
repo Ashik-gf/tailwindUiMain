@@ -9,28 +9,35 @@ import SimpleWithSlashes from './Simple with slashes'
 const Breadcrumbs = () => {
   return (
     <div>
-      <MainHeaderSection goto={'appui'} section={'Application UI'} tag={'Navigations'} />
+      <MainHeaderSection
+       goto={'appui'} 
+       section={'Application UI'} 
+       tag={'Navigations'} 
+       title={'Breadcrumbs'}
+       />
       <HeaderSection className={''} title={'Contained'}>
-        <div className=' mx-64 my-24 '>
+        <div className=' h-full py-24 px-12 md:px-20 lg:px-60 border-2 border-gray-200 rounded-md'>
     <Contained />
         </div>
       </HeaderSection>
+
       {/* Full-width bar */}
       <HeaderSection title={'Full-width bar'}>
-      <div className=' mx-64 my-24 '>
+      <div className=' h-full py-20 md:px-20  border-2 border-gray-200 rounded-md '>
     <FullWidthBar />
         </div>
       </HeaderSection>
+
       {/* Simple with chevrons */}
       <HeaderSection title={'Simple with chevrons'}>
-      <div className=' mx-64 my-24 '>
+      <div className=' h-full p-24  md:px-20 lg:px-60 border-2 border-gray-200 rounded-md '>
     <SimpleWithChevrons />
         </div>
       </HeaderSection>
    
       {/* Simple with slashes */}
       <HeaderSection title={'Simple with slashes'}>
-      <div className=' mx-64 my-24 '>
+      <div className=' h-full p-24  md:px-20 lg:px-60 border-2 border-gray-200 rounded-md '>
     <SimpleWithSlashes />
         </div>
       </HeaderSection>

@@ -13,37 +13,37 @@ const EmptyState = () => {
     <div>
       <MainHeaderSection goto={'appui'} section={'Application UI'} tag={'FeedBack'} />
       <HeaderSection title={'Simple'}>
-      <div className="mx-64 my-8">
+      <div className="h-full px-12 py-24 md:px-20 lg:px-60 border-2 border-gray-200 rounded-md">
         <Simple />
       </div>
       </HeaderSection>
       {/* With dashed border */}
       <HeaderSection title={'With dashed border'}>
-      <div className="mx-64 my-8">
+      <div className="h-full px-12 py-24 md:px-20 lg:px-60 border-2 border-gray-200 rounded-md">
         <WithDashedborder />
       </div>
       </HeaderSection>
       {/* With starting points */}
       <HeaderSection title={'With starting points'}>
-      <div className="mx-64 my-8">
+      <div className="h-full px-12 py-24 md:px-20 lg:px-60 border-2 border-gray-200 rounded-md">
         <WithStartingPoints />
       </div>
       </HeaderSection>
       {/* With recommendations */}
       <HeaderSection title={'With recommendations'}>
-      <div className="mx-64 my-8">
+      <div className="h-full px-12 py-24 md:px-20 lg:px-60 border-2 border-gray-200 rounded-md">
         <WithRecommendations />
       </div>
       </HeaderSection>
       {/* {/* With templates */}
       // <HeaderSection title={'With templates'}>
-      <div className="mx-64 my-8">
+      <div className="h-full px-12 py-24 md:px-20 lg:px-60 border-2 border-gray-200 rounded-md">
         <WithTemplates />
       </div>
       </HeaderSection>
       {/* {/* With recommendations grid */}
       // <HeaderSection title={'With recommendations grid'}>
-      <div className="mx-64 my-8">
+      <div className="h-full px-12 py-24 md:px-20 lg:px-60 border-2 border-gray-200 rounded-md">
         <WithRecommendationsGrid />
       </div>
       </HeaderSection>

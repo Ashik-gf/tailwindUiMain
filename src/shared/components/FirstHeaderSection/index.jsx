@@ -38,7 +38,7 @@ const FirstHeaderSection = ({children, className,title}) => {
           </div>
         </div>
       </div>
-      <div className={`${className}`}>
+      <div className={`${className} border-2 border-gray-200 rounded-md`}>
         {children}
       </div>
     </div>

@@ -16,10 +16,10 @@ import WithSecondaryNavigation2 from "./With secondary navigation2";
 const SidebarNavigation = () => {
   return (
     <div>
-      <MainHeaderSection goto={'appui'} section={'Application UI'} tag={"Navigaton"} />
+      <MainHeaderSection title={'Sidebar Navigation'} goto={'appui'} section={'Application UI'} tag={"Navigation"} />
       {/* Dark */}
       <HeaderSection title={"Brand"}>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center  border-[2px] border-gray-200 rounded-lg">
           <div className=" w-[330px] h-full rounded-lg">
             <Brand />
           </div>
@@ -28,7 +28,7 @@ const SidebarNavigation = () => {
       </HeaderSection>
       {/* Dark */}
       <HeaderSection title={"Dark"}>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center border-[2px] border-gray-200 rounded-lg">
           <div className=" w-[330px] h-full rounded-lg">
             <Dark />
           </div>
@@ -37,7 +37,7 @@ const SidebarNavigation = () => {
       </HeaderSection>
       {/* Light */}
       <HeaderSection title={"Light"}>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center border-[2px] border-gray-200 rounded-lg">
           <div className=" w-[330px] h-full rounded-lg">
             <Light />
           </div>
@@ -46,7 +46,7 @@ const SidebarNavigation = () => {
       </HeaderSection>
       {/* With expandable sections */}
       <HeaderSection title={"With expandable sections"}>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center border-[2px] border-gray-200 rounded-lg">
           <div className=" w-[330px] h-full rounded-lg">
             <WithExpandableSections />
           </div>
@@ -55,7 +55,7 @@ const SidebarNavigation = () => {
       </HeaderSection>
       {/* With secondary navigation */}
       <HeaderSection title={"With secondary navigation"}>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center border-[2px] border-gray-200 rounded-lg">
           <div className=" w-[330px] h-full rounded-lg">
             <WithSecondaryNavigation />
           </div>
@@ -64,7 +64,7 @@ const SidebarNavigation = () => {
       </HeaderSection>
       {/* Simple With Icons And Badges */}
       <HeaderSection title={"Simple With Icons And Badges"}>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center border-[2px] border-gray-200 rounded-lg">
           <div className=" w-[330px] h-full rounded-lg">
             <SimpleWithIconsAndBadges />
           </div>
@@ -73,7 +73,7 @@ const SidebarNavigation = () => {
       </HeaderSection>
       {/* Simple Withicons And Brand Color */}
       <HeaderSection title={"Simple Withicons And Brand Color"}>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center border-[2px] border-gray-200 rounded-lg">
           <div className=" w-[330px] h-full rounded-lg">
             <SimpleWithiconsAndBrandColor />
           </div>
@@ -82,7 +82,7 @@ const SidebarNavigation = () => {
       </HeaderSection>
       {/* Simple With Icons Badges And Profile Section Preview */}
       <HeaderSection title={"Simple With Icons Badges And Profile Section Preview"}>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center border-[2px] border-gray-200 rounded-lg">
           <div className=" w-[330px] h-full rounded-lg">
             <SimpleWithIconsBadgesAndProfileSectionPreview />
           </div>
@@ -91,7 +91,7 @@ const SidebarNavigation = () => {
       </HeaderSection>
       {/* With Expandable Sections */}
       <HeaderSection title={"With Expandable Sections"}>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center border-[2px] border-gray-200 rounded-lg">
           <div className=" w-[330px] h-full rounded-lg">
             <SimpleWithIconsBadgesAndProfileSectionPreview />
           </div>
@@ -100,7 +100,7 @@ const SidebarNavigation = () => {
       </HeaderSection>
       {/*With Expandable Sections2 */}
       <HeaderSection title={"With Expandable Sections2"}>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center border-[2px] border-gray-200 rounded-lg">
           <div className=" w-[330px] h-full rounded-lg">
             <WithExpandableSections2 />
           </div>
@@ -109,7 +109,7 @@ const SidebarNavigation = () => {
       </HeaderSection>
       {/*WithIcons and Expandable Sections */}
       <HeaderSection title={"WithIcons and Expandable Sections"}>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center border-[2px] border-gray-200 rounded-lg">
           <div className=" w-[330px] h-full rounded-lg">
             <WithIconsAndExpandableSections />
           </div>
@@ -118,7 +118,7 @@ const SidebarNavigation = () => {
       </HeaderSection>
       {/*With Secondary Navigation */}
       <HeaderSection title={"With Secondary Navigation"}>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center border-[2px] border-gray-200 rounded-lg">
           <div className=" w-[330px] h-full rounded-lg">
             <WithSecondaryNavigation />
           </div>
@@ -127,7 +127,7 @@ const SidebarNavigation = () => {
       </HeaderSection>
       {/*With Secondary Navigation2 */}
       <HeaderSection title={"With Secondary Navigation2"}>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center border-[2px] border-gray-200 rounded-lg">
           <div className=" w-[330px] h-full rounded-lg">
             <WithSecondaryNavigation2 />
           </div>

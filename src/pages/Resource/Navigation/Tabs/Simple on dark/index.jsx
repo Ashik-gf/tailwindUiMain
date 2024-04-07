@@ -32,7 +32,7 @@ const tabs = [
             <select
               id="tabs"
               name="tabs"
-              className="block w-full rounded-md border-none bg-white/5 py-2 pl-3 pr-10 text-base text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm"
+              className="block w-full h-[50px] px-4 rounded-md border-none bg-white/5 py-2 pl-3 pr-10 text-base text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm"
               defaultValue={tabs.find((tab) => tab.current).name}
             >
               {tabs.map((tab) => (

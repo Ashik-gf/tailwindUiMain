@@ -34,7 +34,7 @@ const tabs = [
           <select
             id="tabs"
             name="tabs"
-            className="block w-full rounded-md border-gray-300 py-2 pl-3 pr-10 text-base focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+            className="block w-full h-[50px] px-4 rounded-md border-gray-300 py-2 pl-3 pr-10 text-base focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
             defaultValue={tabs.find((tab) => tab.current).name}
           >
             {tabs.map((tab) => (

@@ -26,116 +26,128 @@ const Badges = () => {
     <div>
       <MainHeaderSection tag={"Elements"} title={"Badges"} />
       <FirstHeaderSection
-        className={"border-[2px] border-gray-200 rounded-lg "}
+        className={" px-5 py-10"}
         title={"With border"}
       >
-        <div className=" flex justify-center items-center py-12 border-1 border-gray-200 ">
-          <WithBorder />
-        </div>
+        <WithBorder />
       </FirstHeaderSection>
       {/* With border on dark */}
-      <HeaderSection className={''} title={"With border on dark"}>
+      <HeaderSection className={""} title={"With border on dark"}>
         <div className=" bg-black rounded-lg flex justify-center items-center py-12">
           <WithBorderOnDark />
         </div>
       </HeaderSection>
       {/* With border and dot */}
-      <HeaderSection title={"With border and dot"}>
-        <div className="flex justify-center items-center py-12">
-          <WithBorderAndDot />
-        </div>
+      <HeaderSection
+        className={"  rounded-md px-5 py-10"}
+        title={"With border and dot"}
+      >
+        <WithBorderAndDot />
       </HeaderSection>
       {/* With border and dot on dark */}
       <HeaderSection title={"With border and dot on dark"}>
-        <div className=" bg-black flex justify-center items-center py-12">
+        <div>
           <WithBorderAndDotOnDark />
         </div>
       </HeaderSection>
       {/* Pill with border */}
-      <HeaderSection title={"Pill with border"}>
-        <div className="flex justify-center items-center py-12">
-          <PillWithBorder />
-        </div>
+      <HeaderSection
+        className={"  rounded-md px-5 py-10"}
+        title={"Pill with border"}
+      >
+        <PillWithBorder />
       </HeaderSection>
       {/* Pill with border and dot */}
-      <HeaderSection title={"Pill with border and dot"}>
-        <div className="flex justify-center items-center py-12">
-          <PillWithBorderAndDot />
-        </div>
+      <HeaderSection
+        className={"  rounded-md px-5 py-10"}
+        title={"Pill with border and dot"}
+      >
+        <PillWithBorderAndDot />
       </HeaderSection>
       {/* With border and remove button */}
-      <HeaderSection title={"With border and remove button"}>
-        <div className="flex justify-center items-center py-12">
-          <WithBorderAndRemoveButton />
-        </div>
+      <HeaderSection
+        className={"  rounded-md px-5 py-10"}
+        title={"With border and remove button"}
+      >
+        <WithBorderAndRemoveButton />
       </HeaderSection>
       {/* Flat */}
-      <HeaderSection title={"Flat"}>
-        <div className="flex justify-center items-center py-12">
-          <Flat />
-        </div>
+      <HeaderSection
+        className={"  rounded-md px-5 py-10"}
+        title={"Flat"}
+      >
+        <Flat />
       </HeaderSection>
       {/* Flat pill */}
-      <HeaderSection title={"Flat pill"}>
-        <div className="flex justify-center items-center py-12">
-          <FlatPill />
-        </div>
+      <HeaderSection
+        className={"  rounded-md px-5 py-10"}
+        title={"Flat pill"}
+      >
+        <FlatPill />
       </HeaderSection>
       {/* Flat with dot */}
-      <HeaderSection title={"Flat with dot"}>
-        <div className="flex justify-center items-center py-12">
-          <FlatWithDot />
-        </div>
+      <HeaderSection
+        className={"  rounded-md px-5 py-10"}
+        title={"Flat with dot"}
+      >
+        <FlatWithDot />
       </HeaderSection>
       {/* Flat pill with dot */}
-      <HeaderSection title={"Flat pill with dot"}>
-        <div className="flex justify-center items-center py-12">
-          <FlatPillWithDot />
-        </div>
+      <HeaderSection
+        className={"  rounded-md px-5 py-10"}
+        title={"Flat pill with dot"}
+      >
+        <FlatPillWithDot />
       </HeaderSection>
       {/* Flat with remove button */}
-      <HeaderSection title={"Flat with remove button"}>
-        <div className="flex justify-center items-center py-12">
-          <FlatWithRemoveButton />
-        </div>
+      <HeaderSection
+        className={"  rounded-md px-5 py-10"}
+        title={"Flat with remove button"}
+      >
+        <FlatWithRemoveButton />
       </HeaderSection>
       {/* Small with border */}
-      <HeaderSection title={"Small with border"}>
-        <div className="flex justify-center items-center py-12">
-          <SmallWithBorder />
-        </div>
+      <HeaderSection
+        className={"  rounded-md px-5 py-10"}
+        title={"Small with border"}
+      >
+        <SmallWithBorder />
       </HeaderSection>
       {/* Small flat */}
-      <HeaderSection title={"Small flat"}>
-        <div className="flex justify-center items-center py-12">
-          <SmallFlat />
-        </div>
+      <HeaderSection
+        className={"  rounded-md px-5 py-10"}
+        title={"Small flat"}
+      >
+        <SmallFlat />
       </HeaderSection>
       {/* Small pill with border */}
-      <HeaderSection title={"Small pill with border"}>
-        <div className="flex justify-center items-center py-12">
-          <SmallPillWithBorder />
-        </div>
+      <HeaderSection
+        className={"  rounded-md px-5 py-10"}
+        title={"Small pill with border"}
+      >
+        <SmallPillWithBorder />
       </HeaderSection>
       {/* Small flat pill */}
-      <HeaderSection title={"Small flat pill"}>
-        <div className="flex justify-center items-center py-12">
-          <SmallFlatPill />
-        </div>
+      <HeaderSection
+        className={"  rounded-md px-5 py-10"}
+        title={"Small flat pill"}
+      >
+        <SmallFlatPill />
       </HeaderSection>
       {/* Small flat with dot */}
-      <HeaderSection title={"Small flat with dot"}>
-        <div className="flex justify-center items-center py-12">
-          <SmallFlatWithDot />
-        </div>
+      <HeaderSection
+        className={"  rounded-md px-5 py-10"}
+        title={"Small flat with dot"}
+      >
+        <SmallFlatWithDot />
       </HeaderSection>
       {/* Small flat pill with dot */}
-      <HeaderSection title={"Small flat pill with dot"}>
-        <div className="flex justify-center items-center py-12">
-          <SmallFlatPillWithDot />
-        </div>
+      <HeaderSection
+        className={"  rounded-md px-5 py-10"}
+        title={"Small flat pill with dot"}
+      >
+        <SmallFlatPillWithDot />
       </HeaderSection>
-
     </div>
   );
 };
